@@ -1,0 +1,12 @@
+{
+    "routes": [
+        {
+            "method": "POST",
+            "path": "/talk",
+            "handler": "messanger.talk",
+            "config": {
+                "policies": []
+            }
+        }
+    ]
+}
